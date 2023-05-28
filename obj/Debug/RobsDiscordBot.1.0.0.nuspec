@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RobsDiscordBot</id>
+    <version>1.0.0</version>
+    <authors>RobsDiscordBot</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="DSharpPlus" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="DSharpPlus.CommandsNext" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="DSharpPlus.SlashCommands" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.12.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Extensions.Logging" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Console" version="4.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/smile/Projects/RobsDiscordBotSolution/RobsDiscordBot/bin/Debug/net7.0/RobsDiscordBot.runtimeconfig.json" target="lib/net7.0/RobsDiscordBot.runtimeconfig.json" />
+    <file src="/Users/smile/Projects/RobsDiscordBotSolution/RobsDiscordBot/bin/Debug/net7.0/RobsDiscordBot.dll" target="lib/net7.0/RobsDiscordBot.dll" />
+  </files>
+</package>
